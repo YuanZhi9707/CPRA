@@ -1,22 +1,19 @@
 # CPRA
-This is a re-implementation of our paper [1] and for non-commercial use only. 
-            --------------------------------------------------
-            dataset    Rain100H   Rain 100L  Rain12   Rain1400
-            --------------------------------------------------
-            SSIM       0.832       0.971	   0.959	   0.930
-            --------------------------------------------------
-            PSNR      26.02	       35.53	   35.16	   31.11
-            --------------------------------------------------
-You need to install Python with Pytorch-GPU to run this code.
+This is a re-implementation of our paper [1] and for non-commercial use only.<br>
+| dataset | Rain100H | Rain100L | Rain12 | Rain1400 |
+| --- | --- | --- | --- | --- |
+| SSIM | 内容 | 内容 |  
+| PSNR | 内容 | 内容 |
 
-Usage:
+You need to install Python with Pytorch-GPU to run this code.<br>
 
-1. Preparing training data: put rainy images into "/input"
+Usage:<br>
 
-2. Run
-1）You can run testrain100L and testrain12, model is saved in "/logs/Rain100L".
+1. Preparing training data: put rainy images into "/input"<br>
 
-2）Rain100H and Realrain use the same training model.
+2. Run<br>
+1）You can run testrain100L and testrain12, model is saved in "/logs/Rain100L".<br>
+2）Rain100H and Realrain use the same training model.<br>
 
-If this code and dataset help your research, please cite our related papers:
+If this code and dataset help your research, please cite our related papers:<br>
 [1]
