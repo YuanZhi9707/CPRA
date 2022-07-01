@@ -2,8 +2,8 @@
 This is a re-implementation of our paper [1] and for non-commercial use only.<br>
 | dataset | Rain100H | Rain100L | Rain12 | Rain1400 |
 | --- | --- | --- | --- | --- |
-| SSIM | 内容 | 内容 |  
-| PSNR | 内容 | 内容 |
+| SSIM |     |     |  
+| PSNR |     |     |
 
 You need to install Python with Pytorch-GPU to run this code.<br>
 
