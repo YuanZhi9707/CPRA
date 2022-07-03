@@ -1,9 +1,9 @@
 # CPRA
 This is a re-implementation of our paper [1] and for non-commercial use only.<br>
-| dataset | Rain100H | Rain100L | Rain12 | Rain1400 |
+| dataset | Rain100H | Rain100L | Rain12 | Rain1200 |
 | --- | --- | --- | --- | --- |
-| SSIM |     |     |  
-| PSNR |     |     |
+| SSIM |0.901|0.986|0.962|0.936|  
+| PSNR |29.66|39.63|35.88|34.59|
 
 You need to install Python with Pytorch-GPU to run this code.<br>
 
