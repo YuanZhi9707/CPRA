@@ -3,6 +3,7 @@ import numpy as np
 from PIL import Image
 import os
 
+
 #第二截取特定矩形框的图像并放大2倍保存在原图像的右下方
 # 遍历指定目录，显示目录下的所有文件名
 def CropImage4File(filepath,destpath):
