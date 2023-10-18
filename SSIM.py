@@ -4,7 +4,6 @@ from torch.autograd import Variable
 import numpy as np
 from math import exp
 
-
 # 计算一维的高斯分布向量
 def gaussian(window_size, sigma):
     gauss = torch.Tensor([exp(-(x - window_size // 2) ** 2 / float(2 * sigma ** 2)) for x in range(window_size)])
