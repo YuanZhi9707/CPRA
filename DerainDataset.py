@@ -9,10 +9,8 @@ import glob
 import torch.utils.data as udata
 from utils import data_augmentation
 
-
 def normalize(data):
     return data / 255.
-
 
 def Im2Patch(img, win, stride=1):
     k = 0
