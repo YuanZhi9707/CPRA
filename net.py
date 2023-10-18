@@ -5,6 +5,7 @@ from torch.autograd import Variable
 import torch.nn.functional as F
 from torch.nn.utils import weight_norm
 
+
 def print_network(net):
     num_params = 0
     for param in net.parameters():
