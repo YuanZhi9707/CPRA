@@ -18,4 +18,3 @@ pl.xlim(5, 9)  # set axis limits
 pl.ylim(0.75, 1)
 pl.legend()
 pl.show()  # show the plot on the screen
-
