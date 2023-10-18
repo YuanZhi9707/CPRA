@@ -9,6 +9,7 @@ from net import NET
 from skimage.metrics import peak_signal_noise_ratio,structural_similarity
 # from DAB_sep_mwt import DenoiseNet
 
+
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
 
 parser = argparse.ArgumentParser()
